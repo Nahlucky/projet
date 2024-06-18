@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<TITLE>Bibliothèque</TITLE>
+	<META charset="UTF8">
+	<META name="viewport" content="width=device-width,initial-scale=1.0">
+	<LINK rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+	<LINK rel="stylesheet" href="style.css">
+	<SCRIPT src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" defer></SCRIPT>
+	<SCRIPT src="affichage.js" defer></SCRIPT>
+</HEAD>
+<BODY>
+	<DIV class="container-fluid">
+		<!-- Bar header -->
+		<DIV class="row">
+			<DIV class="bg-light d-flex p-2 justify-content-between align-items-center">
+				<DIV>
+					<H4 class="text-muted mx-3">Bibliothèque</H4>
+				</DIV>
+				<DIV class="d-flex justify-content-between align-items-center">
+					<DIV class="dropdown">
+						<BUTTON class="btn" type="button" id="menu" data-bs-toggle="dropdown"><IMG src="src/menu.png"></BUTTON>
+						<UL class="dropdown-menu" aria-labelledby="menu">
+							<LI><A id="open-block" class="dropdown-item">Ajouter un livre</A></LI>
+						</UL>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- Bar de recherche -->
+		<DIV class="row my-3">
+			<DIV class="col-md-10 offset-md-1">
+				<DIV class="border p-1 d-flex justify-content-between">
+					<INPUT class="form-control form-control-sm border-0" placeholder="Rechercher des livres">
+					<BUTTON class="btn" type="button"><IMG class="mx-2" src="src/search.png" width="20"></BUTTON>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<H4 class="offset-md-1 mt-5">Liste des livres</H4>
+
+		<DIV id="archive" class="col-md-10 offset-md-1">
+			<DIV class="row">
+				<DIV id="casier" class="col-md-7">
+					<!-- Listes des livres -->
+				</DIV>
+				<DIV id="details" class="col-md-5">
+					<!-- détails du livre -->
+				</DIV>
+			</DIV>
+		</DIV>
+	</DIV>
+
+	<DIV id="blur"></DIV>
+
+	<DIV class="container-fluid">
+		<DIV class="row">
+			<DIV id="add" class="lock card card-body px-4 pb-4 col-md-6 col-10">
+				<DIV class="d-flex justify-content-end">	
+					<IMG id="close-block" class="opacity-50 mb-3" src="src/close.png" width="20" height="20">
+				</DIV>
+
+				<DIV>
+
+				</DIV>
+			</DIV>
+		</DIV>
+	</DIV>
+</BODY>
+</HTML>

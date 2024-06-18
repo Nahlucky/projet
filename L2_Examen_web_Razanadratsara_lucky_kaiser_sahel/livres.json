@@ -1,0 +1,65 @@
+{
+	"livres": [
+		{
+			"titre": "Harry Potter",
+			"auteurs": "J.K. Rowling",
+			"isbn": "978-2-07-036822-8",
+			"image": "livres/harryPotter.jpeg",
+			"editeur": "Gallimard Jeunesse",
+			"datePublication": "1998",
+			"genre": "Aventure",
+			"resume": "Harry Potter, un jeune orphelin de onze ans, découvre qu'il est un sorcier lorsqu'il reçoit une lettre d'admission à l'école de sorcellerie de Poudlard. À l'école, il apprend la magie et découvre la vérité sur la mort de ses parents, qui ont été tués par le sorcier maléfique Voldemort. Accompagné de ses nouveaux amis Ron Weasley et Hermione Granger, Harry navigue les défis de la vie à Poudlard, tout en se préparant à affronter le retour imminent de Voldemort.",
+			"langue": "Francais",
+			"nombrePages": "300",
+			"disponibilite": true,
+			"etat": "Bonne",
+			"emplacement": "Casier 1"
+		},
+		{
+			"titre": "La bande à Picsou",
+			"auteurs": "Carl Barks",
+			"isbn": "978-2-07-036822-8",
+			"image": "livres/picsou.jpeg",
+			"editeur": "Hachette",
+			"datePublication": "1990",
+			"genre": "Aventure, Humour, Bande dessinée jeunesse",
+			"resume": "La Bande à Picsou suit les aventures de l'oncle Picsou (Scrooge McDuck) et de ses neveux Riri, Fifi, et Loulou (Huey, Dewey, and Louie). Ensemble, ils voyagent autour du monde à la recherche de trésors, tout en affrontant divers ennemis et en découvrant des mystères. La série mélange humour, aventure et leçons de vie, mettant en avant des thèmes tels que la famille, l'amitié et la persévérance. Les histoires sont souvent centrées sur les quêtes de Picsou pour agrandir sa fortune tout en protégeant son coffre-fort des tentatives de vol.",
+			"langue": "Francais",
+			"nombrePages": "120",
+			"disponibilite": true,
+			"etat": "Endommagé",
+			"emplacement": "Casier 2"
+		},
+		{
+			"titre": "L'histoire de Quebec",
+			"auteurs": "Jacques Lacoursière",
+			"isbn": "978-2-07-036822-8",
+			"image": "livres/histoire.jpeg",
+			"editeur": "Éditions du Septentrion",
+			"datePublication": "1995",
+			"genre": "Histoire",
+			"resume": "Histoire populaire du Québec de Jacques Lacoursière est une œuvre en plusieurs volumes qui offre une vue d'ensemble détaillée de l'histoire du Québec, de ses débuts à l'époque contemporaine. Lacoursière raconte l'évolution de la société québécoise en abordant des thèmes politiques, économiques, sociaux et culturels. L'ouvrage est rédigé dans un style accessible et vivant, rendant l'histoire compréhensible et intéressante pour un large public. L'auteur s'appuie sur des recherches rigoureuses et une vaste documentation pour présenter les événements marquants, les figures importantes, et les mouvements sociaux qui ont façonné le Québec.",
+			"langue": "Francais",
+			"nombrePages": "510",
+			"disponibilite": false,
+			"etat": "Bonne",
+			"emplacement": "Casier 3"
+		},
+		{
+			"titre": "Les Épines de la vie",
+			"auteurs": "Camille Durand",
+			"isbn": "978-2-07-036822-8",
+			"image": "livres/life.jpeg",
+			"editeur": "",
+			"datePublication": "1980",
+			"genre": "Roman contemporain, Drame",
+			"resume": "Les Épines de la vie est un roman poignant de Camille Durand qui explore les complexités des relations humaines et les défis de la vie moderne. Le livre suit l'histoire de Marie, une jeune femme brillante mais tourmentée par un passé douloureux. En quête de sens et de rédemption, elle décide de retourner dans son village natal en Provence, espérant y trouver la paix intérieure et renouer avec ses racines.",
+			"langue": "Francais",
+			"nombrePages": "300",
+			"disponibilite": false,
+			"etat": "Bonne",
+			"emplacement": "Casier 4"
+		}
+
+	]
+}
